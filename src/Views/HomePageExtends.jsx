@@ -1,7 +1,9 @@
 function HomePageExtends(){
     return(
         <>
-            <h1>Hello</h1>
+            <div className="HomePageExtends">
+                <h1>Hello</h1>
+            </div>
         </>
     )
 }

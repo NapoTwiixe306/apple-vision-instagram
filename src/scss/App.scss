@@ -1,3 +1,6 @@
+/*Base*/
+@import './Base/Reset';
+
 body{
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -6,12 +9,9 @@ body{
   background-attachment: fixed;
 }
 
-/*Base*/
-@import './Base/Reset';
-
-/*Views*/
-@import './Views/HomePages';
-
 /*Widget*/
 @import './Widget/Navbar';
 @import './Widget/Sidebar';
+
+/*Views*/
+@import './Views/HomePages';

@@ -1,11 +1,9 @@
 .Home__Container {
+  position: relative;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
   .Home {
     width: 1232px;
@@ -13,5 +11,45 @@
     background: rgba(174, 167, 167, 0.48);
     backdrop-filter: blur(50px);
     border-radius: 50px;
+    position: relative;
+
+    .Content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+
+      .Home__Posts {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 50px;
+        gap: 15px;
+
+        .Publication {
+          width: 500px;
+          height: 500px;
+          border: 2px solid red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .Legend{
+          width: 250px;
+          height: 500px;
+          border: 2px solid red;
+        }
+      }
+
+      .Home__Suggestion {
+        display: flex;
+        margin-right: 50px;
+        .Suggestion__Content {
+          width: 250px;
+          height: 600px;
+          border: 2px solid red;
+        }
+      }
+    }
   }
 }

@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faMicrophone,
     faUpRightAndDownLeftFromCenter,
     faDownLeftAndUpRightToCenter,
-    faCog
 } from "@fortawesome/free-solid-svg-icons";
 import Home from '../img/Navbar/Home.png';
 import Settings from '../img/Navbar/Settings.png';
@@ -40,9 +38,7 @@ function Navbar(){
                     </div>
                 </div>
             </div>
-
-            {/* Conditionnellement afficher le composant HomePageExtends */}
-            {showHomePageExtends && <HomePageExtends/>}
+             b{showHomePageExtends && <HomePageExtends/>}
         </>
     )
 }

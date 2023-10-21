@@ -1,0 +1,108 @@
+/*Base*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+/*Widget*/
+.Navbar__Container {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .Navbar__Container .Navbar {
+    width: 250px;
+    height: 56px;
+    border-radius: 500px;
+    background: rgba(174, 167, 167, 0.48);
+    backdrop-filter: blur(50px); }
+    .Navbar__Container .Navbar .Navbar__Icons {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: initial; }
+      .Navbar__Container .Navbar .Navbar__Icons .largeScreen {
+        transform: rotate(90deg);
+        color: white;
+        font-size: 25px;
+        margin-left: 30px; }
+      .Navbar__Container .Navbar .Navbar__Icons img {
+        margin-left: 50px;
+        width: 40px;
+        height: 40px; }
+
+.Sidebar__Container {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  transform: translate(-50%, -50%); }
+  .Sidebar__Container .Sidebar {
+    width: 70px;
+    height: 500px;
+    border-radius: 114px;
+    background: rgba(143, 139, 139, 0.37);
+    backdrop-filter: blur(50px); }
+    .Sidebar__Container .Sidebar .Sidebar__icons {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .Sidebar__Container .Sidebar .Sidebar__icons img {
+        margin-bottom: 75px;
+        width: 40px;
+        height: 40px; }
+
+/*Views*/
+.Home__Container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .Home__Container .Home {
+    width: 1232px;
+    height: 640px;
+    background: rgba(174, 167, 167, 0.48);
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+    position: relative; }
+    .Home__Container .Home .Content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%; }
+      .Home__Container .Home .Content .Home__Posts {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 50px;
+        gap: 15px; }
+        .Home__Container .Home .Content .Home__Posts .Publication {
+          width: 500px;
+          height: 500px;
+          border: 2px solid red;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .Home__Container .Home .Content .Home__Posts .Legend {
+          width: 250px;
+          height: 500px;
+          border: 2px solid red; }
+      .Home__Container .Home .Content .Home__Suggestion {
+        display: flex;
+        margin-right: 50px; }
+        .Home__Container .Home .Content .Home__Suggestion .Suggestion__Content {
+          width: 250px;
+          height: 600px;
+          border: 2px solid red; }
+
+/*# sourceMappingURL=style.css.map */
