@@ -38,7 +38,7 @@ function Navbar(){
                     </div>
                 </div>
             </div>
-             b{showHomePageExtends && <HomePageExtends/>}
+             {showHomePageExtends && <HomePageExtends/>}
         </>
     )
 }

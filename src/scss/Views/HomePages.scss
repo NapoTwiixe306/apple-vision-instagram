@@ -1,6 +1,8 @@
 .Home__Container {
-  position: relative;
-  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +11,7 @@
     width: 1232px;
     height: 640px;
     background: rgba(174, 167, 167, 0.48);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(25px);
     border-radius: 50px;
     position: relative;
 
@@ -17,27 +19,32 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 100%;
 
       .Home__Posts {
         display: flex;
         align-items: center;
-        height: 100%;
         margin-left: 50px;
         gap: 15px;
 
         .Publication {
           width: 500px;
           height: 500px;
-          border: 2px solid red;
           display: flex;
           justify-content: center;
           align-items: center;
+          border-radius: 25px;
+          background: rgba(25, 161, 190, 0.38);
+          backdrop-filter: blur(25px);
         }
         .Legend{
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 250px;
           height: 500px;
-          border: 2px solid red;
+          border-radius: 25px;
+          background: rgba(217, 217, 217, 0.25);
+          backdrop-filter: blur(50px);
         }
       }
 
@@ -45,9 +52,14 @@
         display: flex;
         margin-right: 50px;
         .Suggestion__Content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 250px;
           height: 600px;
-          border: 2px solid red;
+          border-radius: 25px;
+          background: rgba(217, 217, 217, 0.25);
+          backdrop-filter: blur(25px);
         }
       }
     }
