@@ -16,7 +16,7 @@ function Navbar(){
 
     const handleIconClick = () => {
         setShowComponents(!showComponents);
-        setShowHomePageExtends(!showHomePageExtends); // Basculer l'affichage de HomePageExtends
+        setShowHomePageExtends(!showHomePageExtends);
     };
 
     const icon = showComponents
