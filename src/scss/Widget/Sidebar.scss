@@ -1,22 +1,21 @@
-.Sidebar__Container{
+.Sidebar__Container {
   position: absolute;
   top: 50%;
   left: 13%;
   transform: translate(-50%, -50%);
-  .Sidebar{
+  .Sidebar {
     width: 70px;
     height: 500px;
     border-radius: 114px;
     background: rgba(143, 139, 139, 0.37);
     backdrop-filter: blur(50px);
-    .Sidebar__icons{
-
+    .Sidebar__icons {
       position: absolute;
       top: 60%;
       left: 50%;
       transform: translate(-50%, -50%);
 
-      img{
+      img {
         margin-bottom: 75px;
         width: 40px;
         height: 40px;

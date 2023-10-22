@@ -1,12 +1,12 @@
-import './scss/App.scss';
-import HomePages from "./Views/HomePages";
+import './scss/App.scss'
+import HomePages from './Views/HomePages'
 
 function App() {
   return (
     <>
-      <HomePages/>
+      <HomePages />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
