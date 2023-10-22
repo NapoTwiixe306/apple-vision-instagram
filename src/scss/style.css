@@ -86,27 +86,40 @@ body {
         align-items: center;
         margin-left: 50px;
         gap: 15px; }
-        .Home__Container .Home .Content .Home__Posts .Publication {
-          width: 500px;
-          height: 500px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 25px;
-          background: rgba(25, 161, 190, 0.38);
-          backdrop-filter: blur(25px); }
+        .Home__Container .Home .Content .Home__Posts .Posts {
+          margin-top: 20px; }
+          .Home__Container .Home .Content .Home__Posts .Posts .Publication {
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            background: rgba(25, 161, 190, 0.38);
+            backdrop-filter: blur(25px); }
+          .Home__Container .Home .Content .Home__Posts .Posts .Stat {
+            display: flex;
+            justify-content: center; }
+            .Home__Container .Home .Content .Home__Posts .Posts .Stat p {
+              position: relative;
+              top: 10px; }
         .Home__Container .Home .Content .Home__Posts .Legend {
           border: 2px solid red;
           display: flex;
-          flex-direction: column;
           padding: 15px;
           width: 300px;
           height: 500px;
           border-radius: 25px;
           background: rgba(217, 217, 217, 0.25);
           backdrop-filter: blur(50px); }
-          .Home__Container .Home .Content .Home__Posts .Legend p {
-            font-size: 13px; }
+          .Home__Container .Home .Content .Home__Posts .Legend img {
+            width: 50px;
+            height: 50px; }
+          .Home__Container .Home .Content .Home__Posts .Legend .txt {
+            position: relative;
+            left: 15px; }
+            .Home__Container .Home .Content .Home__Posts .Legend .txt p {
+              font-size: 13px; }
       .Home__Container .Home .Content .Home__Suggestion {
         margin-top: 20px;
         margin-right: 50px; }
