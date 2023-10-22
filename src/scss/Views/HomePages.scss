@@ -30,6 +30,7 @@
           width: 500px;
           height: 500px;
           display: flex;
+
           justify-content: center;
           align-items: center;
           border-radius: 25px;
@@ -49,7 +50,7 @@
       }
 
       .Home__Suggestion {
-        display: flex;
+        margin-top: 20px;
         margin-right: 50px;
         .Suggestion__Content {
           display: flex;
