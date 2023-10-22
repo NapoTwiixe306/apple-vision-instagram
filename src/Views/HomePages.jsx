@@ -38,7 +38,7 @@ function HomePages() {
                         </div>
                         <div className="Home__Suggestion">
                             <div className="Suggestion__Content">
-                                <p>Suggestion</p>
+                                <p>Suggestions</p>
                             </div>
                         </div>
                     </div>
