@@ -38,14 +38,18 @@
           backdrop-filter: blur(25px);
         }
         .Legend{
+          border: 2px solid red;
           display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 250px;
+          flex-direction: column;
+          padding: 15px;
+          width: 300px;
           height: 500px;
           border-radius: 25px;
           background: rgba(217, 217, 217, 0.25);
           backdrop-filter: blur(50px);
+          p{
+            font-size: 13px;
+          }
         }
       }
 

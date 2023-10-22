@@ -12,7 +12,10 @@ function HomePages() {
                                 <p>Publication</p>
                             </div>
                             <div className="Legend">
-                                <p>Legend</p>
+                                {/*img*/}
+                                <p><strong>Warren Buffet</strong></p>
+                                <p><strong>0 Following - 1.6M Followers</strong></p>
+                                <p><strong>10 Posts</strong></p>
                             </div>
                         </div>
                         <div className="Home__Suggestion">
