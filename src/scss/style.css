@@ -119,6 +119,7 @@ body {
             position: relative;
             left: 15px; }
             .Home__Container .Home .Content .Home__Posts .Legend .txt p {
+              width: 100%;
               font-size: 13px; }
       .Home__Container .Home .Content .Home__Suggestion {
         margin-top: 20px;
