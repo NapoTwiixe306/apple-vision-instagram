@@ -21,6 +21,7 @@ function HomePages() {
                         <div className="Home__Suggestion">
                             <div className="Suggestion__Content">
                                 <p>Suggestion</p>
+
                             </div>
                         </div>
                     </div>
