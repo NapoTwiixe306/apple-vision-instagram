@@ -198,7 +198,7 @@ body {
     gap: -25px;
   }
   .Home__Container .Home .Content .Home__Posts .Posts {
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .Home__Container .Home .Content .Home__Posts .Posts .Publication {
     width: 350px;
@@ -223,11 +223,12 @@ body {
   }
   .Home__Container .Home .Content .Home__Posts .Legend {
     display: flex;
+    margin-top: 60px;
     position: relative;
     right: 30px;
     padding: 15px;
     width: 300px;
-    height: 400px;
+    height: 430px;
     border-radius: 25px;
     background: rgba(217, 217, 217, 0.25);
     backdrop-filter: blur(50px);
@@ -253,7 +254,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 25px;
     background: rgba(217, 217, 217, 0.25);
     backdrop-filter: blur(25px);

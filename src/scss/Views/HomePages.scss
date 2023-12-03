@@ -119,7 +119,7 @@
           
   
           .Posts {
-            margin-top: 20px;
+            margin-top: 60px;
             .Publication {
               width: 350px;
               height: 350px;
@@ -144,11 +144,12 @@
           }
           .Legend {
             display: flex;
+            margin-top: 60px;
             position: relative;
             right: 30px;
             padding: 15px;
             width: 300px;
-            height: 400px;
+            height: 430px;
             border-radius: 25px;
             background: rgba(217, 217, 217, 0.25);
             backdrop-filter: blur(50px);
@@ -175,7 +176,7 @@
             justify-content: center;
             align-items: center;
             width: 250px;
-            height: 500px;
+            height: 530px;
             border-radius: 25px;
             background: rgba(217, 217, 217, 0.25);
             backdrop-filter: blur(25px);
