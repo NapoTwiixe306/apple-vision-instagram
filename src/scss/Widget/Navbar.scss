@@ -30,3 +30,10 @@
     }
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .Navbar__Container{
+    position: absolute;
+    top: 94%;
+  }
+}
