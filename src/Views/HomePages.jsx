@@ -16,7 +16,6 @@ function HomePages() {
             <div className="Home__Posts">
               <div className="Posts">
                 <div className="Publication">
-                  <p>Publication</p>
                 </div>
                 <div className="Stat">
                   <p>
